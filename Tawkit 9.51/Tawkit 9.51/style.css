@@ -700,6 +700,20 @@ input[type='radio'] { vertical-align:middle; width:3.5vw; height:3.5vw;}
 .CSS_PANO3_HIDDEN	{opacity:0;    transition: all 3s ease-out;}
 
 
+.CSS_SLIDERS_BG {
+  background: black;
+  font-size: 9vw;
+  position: absolute;
+  z-index: 999;
+  left: -100%;
+  top: 0%;
+  height: 100%;
+  width: 100%;
+  color: #f4e2ce;
+  opacity: 0.95;
+}
+
+
 .Cxvisible {visibility:visible; opacity: 1; transition: opacity 3s linear;}
 .Cxhidden  {visibility:hidden;  opacity: 0; transition: visibility 0s 3s, opacity 3s linear;}
 
